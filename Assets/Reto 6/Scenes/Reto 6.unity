@@ -1292,7 +1292,7 @@ MonoBehaviour:
   minMaxDamageAmount: {x: 5, y: 10}
   attackPoint: {fileID: 553236337}
   projectilePrefab: {fileID: 2729049396429549707, guid: 9a41d740fa00c8a4090207f461aa9ca7, type: 3}
-  attackRate: 0.25
+  attackRate: 0.31
 --- !u!114 &390267996
 MonoBehaviour:
   m_ObjectHideFlags: 0
