@@ -446,6 +446,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   muzzlePrefab: {fileID: 3725615120944716569, guid: ee682c52d2801c54b8c27313df977fb2, type: 3}
   impactPrefab: {fileID: 652734487613735546, guid: 470bbc456ad9b3c498fdbf1382068c3e, type: 3}
+  shootClip: {fileID: 8300000, guid: efe0a8bf19dfa6a44af876650abefc44, type: 3}
+  impactClip: {fileID: 8300000, guid: a63caf84ffc708e4ebb8cb54272338c8, type: 3}
 --- !u!4 &4083007381781439628 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7258936774047215837, guid: 0ab20d89b262f8240999628a1403ecc8, type: 3}

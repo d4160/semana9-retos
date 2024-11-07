@@ -256,3 +256,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   muzzlePrefab: {fileID: 285370680956973208, guid: 3da507485098a664f86266c5302e1bbd, type: 3}
   impactPrefab: {fileID: 4725800262689813583, guid: cd1922f27430f8346beaa45b464f2ac0, type: 3}
+  shootClip: {fileID: 8300000, guid: 9b86d90b903ed3847b088ca0c066883b, type: 3}
+  impactClip: {fileID: 8300000, guid: a9ad1755056de324199ebfcbb870f68c, type: 3}

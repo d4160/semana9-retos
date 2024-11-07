@@ -7,6 +7,10 @@ public class Projectile : MonoBehaviour
     public GameObject muzzlePrefab;
     public GameObject impactPrefab;
 
+    [Header("SFX")]
+    public AudioClip shootClip;
+    public AudioClip impactClip;
+
     private ProjectileMovement _movement;
     private DamageStat _damageStat;
 
@@ -25,6 +29,11 @@ public class Projectile : MonoBehaviour
         {
             Instantiate(muzzlePrefab, transform.position, Quaternion.identity);
         }
+
+        if (shootClip)
+        {
+            AudioManager.Instance.PlayAudio(shootClip, AudioType.SFX, transform.position);
+        }
     }
 
     public void InstantiateImpact(Vector3 position)
@@ -32,6 +41,11 @@ public class Projectile : MonoBehaviour
         if (impactPrefab)
         {
             Instantiate(impactPrefab, position, Quaternion.identity);
+        }
+
+        if (impactClip)
+        {
+            AudioManager.Instance.PlayAudio(impactClip, AudioType.SFX, transform.position);
         }
     }
 }
